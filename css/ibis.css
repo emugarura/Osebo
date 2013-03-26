@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Amaranth:700);
+header {
+  background: url(../img/header.jpg) 0 -60px;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  position: relative;
+  border-bottom: 10px solid #D34616;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  height: 240px;
+  border-top: 1px solid #ccc;
+  background: #f4f4f4;
+}
+header h1 {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+header h2 {
+  color: #f4f4f4;
+}
+header hgroup {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+header, header a {
+  color: #fff;
+}
+header a:hover {
+  text-decoration: none;
+  color: #f3f3f3;
+}
+header nav {
+  position: absolute; 
+  right: 30px;
+  bottom: 10px;
+}
+header nav li {
+  display: inline;
+}
+header nav ul ul {
+  display: none;
+}
+#content {
+  padding: 20px;
+}

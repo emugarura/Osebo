@@ -1,0 +1,29 @@
+// imports
+@import 'imports'
+
+#manager
+	background-color #f4f4f4
+	box-shadow(0 4px 6px 2px rgba(0, 0, 0, 0.1))
+	box-sizing()
+	padding 7px 10px
+	fixed top 0 left 0
+	width 100%
+	z-index 99
+
+	p
+		margin 0
+		float left
+
+	ul
+		overflow hidden
+
+	li
+		float left
+		margin-left 15px
+
+		&:first-child
+			background url($ipa openid/lock.gif) no-repeat 0 center
+			padding-left 25px
+
+	#editbuttons
+		absolute top 1px right 10px

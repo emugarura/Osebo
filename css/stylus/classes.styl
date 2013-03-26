@@ -1,0 +1,45 @@
+vendor-prefixes = moz ms o webkit official
+
+// colors
+
+// img path
+$ipa = "../img/"
+
+display(arg = '')
+    if arg == 'inline-block'
+        display inline-block
+        vertical-align top
+        .lt-ie8 &
+            *display inline
+            *zoom 1
+    else if arg == 'box'
+        display -moz-box
+        display -webkit-box
+        display box
+    else
+        display arg
+
+box-sizing()
+    -moz-box-sizing border-box
+    -webkit-box-sizing border-box
+    box-sizing border-box
+
+border-radius(arg = '')
+    value = arg == '' ? 4px : arguments
+    vendor('border-radius', value)
+
+box-shadow(arg = '')
+    value = arg == '' ? 0 0 5px rgba(#000, 0.10) : arguments
+    vendor('box-shadow', value)
+    -webkit-background-clip padding-box
+
+transition(arg = '')
+    value = arg == '' ? all 0.175s linear : arguments
+    vendor('transition', value)
+
+transform(arg = '')
+    vendor('transform', arguments)
+
+pie()
+    .lt-ie9 &
+        behavior url(PIE.htc)

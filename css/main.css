@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	font-family:Arial, Geneva, sans-serif;
+	font:Arial, Geneva, sans-serif;
+}
+body{
+	margin:0px;
+	padding:0px;
+		font-size:14px;
+width:980px;
+}
+a{
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover{
+	text-decoration:underline;
+}
+.infWin
+{
+	padding: 10px 10px 10px 10px;
+	display:block;
+	height:250px;
+}
+
+.black_bar{
+	width: 980px; 
+	color:#FFF; 
+	background-color:#000;
+	vertical-align:middle;
+	height:35px;
+}
+.black_bar img{
+	float:left;
+	top:7px;
+}
+#top_bar{
+	font-size:12px;
+}
+#top_bar img{
+	padding-right:10px;
+}
+
+#filters h1{
+	font-size:14px;
+	font-weight:bold;
+}
+#filters h2{
+	font-size:10px;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+#filters h3{
+	color:#79bad0;
+	font-size:10px;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+
+
+.cnn-mapNavLeft
+{
+	float: left;
+	width:30%;
+	top: 0px;
+}
+
+.mapOptionsStyle
+{
+	
+}
+
+.cnn-mapNavRight
+{
+	float: left;
+	width:70%;
+	top: 0px;
+}
+
+.cnn-mapNavLeftLabel {float:left;width:35%;font-size:14px;}
+.cnn-mapNavLeftDensity {float:right;width:65%;font-size:10px;}
+
+.cnn-mapNavRightOptions
+{
+	float:left;
+	width:80%;
+	font-size:14px;
+}
+
+.cnn-mapNavRightButton
+{
+	float:right;
+	width:20%;
+	font-size:10px;
+	margin-top:15px;
+}
+
+
+ul.mapOptions
+{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+ul.mapOptions li
+{
+	list-style:none;
+	display:block;
+	float:left;
+	margin:5px;
+	font-size:12px;
+	font-family:arial, sans-serif;
+	line-height:15px;
+	width:23%;
+	height:15px;
+}
+
+#mapOptions input,label{
+	cursor:pointer;
+}
+#credit{
+	position:absolute;
+	margin:50px 0 0 0;
+	color:#999;
+	clear:both;
+	
+	font-size:10px;
+}
+
+
+.widenWidth
+{
+	position: relative;
+	left: 35px;
+	top: -16px;
+	width: 300px;
+}
+
+/* for the map */
+
+
+.cnn_infobox
+{
+	padding: 10px 10px 10px 10px;
+	height:auto;
+	min-height:130px;
+	max-width:600px;
+	min-width:250px;
+	width:auto;
+	display:block;
+	color:#FFF;
+	background-color:#000;	
+	
+}
+
+
+.arrow
+{
+	
+	background-image:url(../img/arrow.png);
+	width:20px;
+	height:20px;
+	position:absolute;
+	margin:110px 0px 0px -20px;
+}
+.cnn_infobox h4,p{
+	
+}
+#holder{
+	width:980px;
+	height:500px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+
+.tab {
+	font-weight:bold;
+	padding:9px 9px 0px 9px;
+	display:block;
+	height:26px;
+	background-color:#333;
+	margin-right:2px;
+	float:left;
+	cursor:pointer;
+	background-image:url(../img/tab.png);
+}
+.tab:hover {
+	background-image:url(../img/tab_over.png);
+}
+.tab_inactive {
+	font-weight:bold;
+	padding:9px 9px 0px 9px;
+	display:block;
+	width:194px;
+	text-align:center;
+	height:26px;
+	background-color:#000;
+	margin-right:2px;
+	float:left;
+}
+#drop_down{
+	margin:10px 0 0 -10px;
+	background:#000;
+	z-index:200;
+	position:absolute;
+	overflow:hidden;
+	text-align:left;
+}
+.drop_down_item{
+	font-size:14px;
+	height:20px;
+	color:#FFF;
+	display:block;
+	padding:3px 10px 3px 10px;
+	background:#000;
+	cursor:pointer;
+}
+.drop_down_item:hover{
+	background:#333;
+}
+#content_pane{
+	z-index:100;
+	background:#000;
+	height:500px;
+	width:380px;
+	margin:0 0 0 600px;
+	position:absolute;
+	color:#FFF;
+	/* for IE */
+  filter:alpha(opacity=90);
+  /* CSS3 standard */
+  opacity:0.9;
+}
+#content_pane p,h1{
+	margin:20px;
+}
+
+#close_button{
+	float:right;
+	padding:10px;
+	cursor:pointer;
+}
+#content_pane p{
+   margin-top:13px;
+
+}
+
+#snapshot{
+	position:absolute;
+	background:#000;
+	margin:300px 0 0 0;	
+}
+#snapshot_border{
+	z-index:99;
+	width:203px;
+	height:203px;
+	position:absolute;
+	background:#000;
+	margin:297px 0 0 0;
+	display:block;
+}
+#intro p {
+    padding-left: 10px;
+}

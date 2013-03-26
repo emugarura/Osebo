@@ -1,0 +1,142 @@
+	/* colors for countries
+	#f3e500 - revolution
+	#f38f00 - protests
+	#ca4700 - violence
+	#eb0b0b - civil war
+	*/
+data = [	
+	
+		{
+		'name':'Tunisia',
+		'blurb':'<p>An interim government came to power in January 2011 when an uprising prompted President Zine El Abidine Ben Ali to leave the country after 23 years in power.</p><p>The revolt was inspired by Mohammed Bouazizi, a 26-year-old who set himself on fire after police confiscated his fruit cart. He became a symbol for angry Tunisians frustrated with high unemployment, police corruption and political repression.</p><p>In just a few months, Tunisia went from decades of strict one-party rule to an explosion of more than 30 registered political parties. Its revolution was the spark for additional uprisings across North Africa and the Middle East.</p>',
+		'color':'#f3e500',
+		'latLng':'31.877557643340044, 26.279296875',
+		'outlines':['e`ilEeaiaAqnMbhCsdCtzFvjDxxKyrEhmCukZ}gAm~AevLzcRg}q@nc^lpd@','auliEqkjeAlpXt|EbpnA~bCzvY}_UxnH|aB|kEt|Hfxs@rzzBbmXlrQpnFtv^phUjdAtqYju[g_At|OjlBbkMbtf@lr_@|aPrcBzvcBct_@`i`@nuMv{jAr``AnwTtkcA}jcG|u`Aa}dBlsYa}tAjhiC_ez@fxGwvu@|ci@lIzdL_vQbjq@iwFpmEiid@ro@mecAlkf@muTt_Eynf@g}EarTwiXgtC}qTska@mbM}sk@qsnAcsIdaCwdJebKiw]diDgav@ghZkcGyuHcqEprCezB|`OscIbdFmeP}E_oQyhIck]bhC_zNt_LqyZtbAqdiBusTmdHhub@ejEdl@clGsiHyaP}ih@seKkhE__FpUefA|zHcbDiPovGedk@mhEel@{jDf~F_kHouA}tEwid@_nIqkQefOgpM{dLie^{zHkdHpN{}YweTa~`AfrAkpd@zkLd_A|~El}NtaG}gAhwFioLy~CcgIqpHwvB_{AnnM{kE}ag@t|Oq`i@zm@daX~|C`nBzkE{~SnwHhuKpac@kta@b{Jr}Im{EtjBl_ClnMrgFr\\iPaxEl_JccSvuAgkOesIsaUsiOceG{aP}io@u~QmvNg}Eoa\\fhh@quMxfUpg[jhx@psb@zwLrol@bpKvqK``^zfGpwXk`Dvlb@{bXhkOwmUg_AgnRlxIf_AbpDcoCxpJugd@vfU|EneBg|DfiMdiDpmSnBt~Kc}LlzCgfHjtCfxGnddAlfh@d_t@d{v@nrQrya@nrJ`gI~sVpnr@ncWpqPvsTzLjk_@saNbrk@gvq@bfH_oXghLusb@hPgrHvzF_YlrXdyH`vJe_OukJ_e\\qnFyqDsiHtfEynAioEppAwmUl{EyzFvxKcbDrz[v{@`gPgjc@u_Ehe^dhCppAdxNqdJyZquF~bHc|{@']
+	},
+	
+	
+		{
+		'name':'Egypt',
+		'blurb':'<p>Inspired by the success of Tunisia\'s uprising, thousands of Egyptians turned out in January 2011 to voice their own displeasure with the government. </p><p>President Hosni Mubarak promised reform after protesters organized a \'Day of Rage,\' but he eventually gave in to demands that he step down after nearly 30 years of rule. </p><p>The frustrations expressed by Egyptians were similar to those expressed by Tunisians: authoritarian rule, police corruption, a lack of free elections, and a woeful economy with high unemployment and low wages.</p><p>Mubarak has been sentenced to life in prison for ordering the killing of demonstrators. His successor, Mohamed Morsy, was sworn in to office in June, but the Supreme Council of the Armed Forces -- which led the country on an interim basis -- still wields legislative power after ordering the dissolution of parliament.</p>',
+		'color':'#f3e500',
+		'latLng':'26.273714024406456, 48.8671875',
+		'outlines':['qtd~DebzoE|vS_uHzyToiG|_UshGz_UaeGpaUm_Jz_U_{HtzToxBjuTcoC|{P_lN`~T_zGraUq}Gx_U}_GjiTgvEraUasGhhSosDvoPsUxsPe~EhwL~kMhfXvuOzs]tcIl}\\`s@twCljGrfLgl@xnHboCdr]|bCpp[bpOdsK|\\va@txDbx\\lbM|l]{fGld_@ndAhgRh{SvoPpmLtzMjq@_uIxkLua@xcRs_Lt{Nu|OtxY_qS`fV}rUhnRmxWtoPwpCrjIgcSpeYw`Vh|TmdHpvGog[xSgtQzmGybQkj@qeRfuDmuT``WykSrxY_d[tyL{}Rt}PchQp~Ac~[rjBgoS|mP_sWlcDeqE`]xkEjhLtdJpiHzdEwzFdyVhtQ|r\\z|JpeRwpQvsTgmXtlMivEjd]eqGnkXr}BnvNinD~~YcwQnrMqzNvb_@s}IpnTemXbuYo_Qb{XydS`rTobV~jMglWx|XkhSzhItNauBp{NbqE?rbHy`O`qL~`Alj@pqBntEf}EbhJqlKd`I~QdmQofSbjScjExnO}pZ`|YcRl{Z_vQdiTurLfzBpsDvvIt~Ct}WdfA~nXk_XffpBmw{@f{fAw~o@jv}Auxp@nuk@eqU~nJcR|_NmdOrfx@g_XvaqAq{oApv@_vQpdQifQm{Efup@kvEdhC|gH~mI|tfCgrOpqUk`JhwdAltlAaeN`jq@hilBnzp@j_Q|{hBlxe@b{LyG`xo@uJviaC~AlycAuNvbeCh^zzeCks`@cbKm}Gf|D_bBxtGv~CpcIxog@|xTnBroe@mInxfCzLnqfCiSl{eCbGzbc@oNzk{Bl\\ziyB|Ejo{BkIrt{BgDh~|BkLdqyBwt{AdNcdoOzSoohGkIoohGmPotfGxZckr@lwVqt\\wbAipTzrLa~TswA_ss@flWceNo_Cucu@kkf@eav@oqPo`gAxf\\ejj@oc@gxGylMyy\\}sVmgJerK~qSktGrmE}j[myQmcxA`fOmm`Cl|M_|lA}`Ak~VvrEmcGhqG}x`AveDiIttUmdO~{BmmSebDqf_AfgYilI~pEugy@auBcle@xlTwnbApfLu{NxrN_jd@eIqo[wwJafd@ohN_b`@e{Qk|[u{Ngi[}bJshGm~OcoZ_s@awKnsD{uQbfH`pDqN}fG}nAmmSsfEntLsfLcfOuqRkkHkuDcgBkcGzm@bgIgoSquFy|f@ahJsud@bKapDd}Llma@pmLf__@xwCoxBobFk{S`_FmeIwvIyiJdyAsnFisBc{XykLkgKbiDkwO_wD{pCaqL~k\\o}@{t^~|Ji~d@lvNi``@meBsrh@ihL}cb@lfCceGzyUk~O||Qmu[ytGvvPkbMlsRgtQxaImdAlqG~uQ~sAnvBko@nzIzdNlbMdmAlqIsgTzjDwsF}zA_lN~fPwcBf_OiiMoaE{jDe{C{kL_}C{yNgxG{m@exNfsBcnBafHjkAd^`kF_xLr{UglW~`HmnTspHcug@wa@cbD|cKbwb@|f@g{QylF}}KklBgqNl}GijNyiJecErh@f}LqwH_yMsgF_oQ~{IiyAzbQlBapDahJslDgpTmcGc}LcKsnMnrCu~h@{gHgah@u_Lwfc@ojPmb]']
+	},
+	
+	
+		{
+		'name':'Libya',
+		'blurb':'<p>Anti-government protests turned into an all-out civil war after Libyan security forces began firing on demonstrators in February 2011. Rebels established a headquarters in the eastern city of Benghazi, 600 miles away from the western capital of Tripoli.</p><p>In a televised speech, leader Moammar Gadhafi vowed that he would die a martyr rather than give up the power he had held since 1969. The United Nations responded by freezing Gadhafi\'s assets and imposing an arms embargo. Later, the U.N. Security Council voted to impose a no-fly zone over Libya and take \'all necessary measures\' to protect civilians from Gadhafi\'s forces.</p><p>By August 2011, Gadhafi had lost his hold on power. Rebel fighters made deep gains inside Tripoli, and Gadhafi was nowhere to be found. On October 20, it was confirmed that Gadhafi had been killed by revolutionary forces.</p><p>In July 2012, Libya held its first election in 42 years. A liberal coalition won the most seats in parliament.</p>',
+		'color':'#f3e500',
+		'latLng':'26.66709580110484, 34.013671875',
+		'outlines':['inpwDcvdy@owTukcAw{jAs``Aai`@ouM{vcBbt_@}aPscBctf@mr_@klBckMf_Au|OuqYku[qhUkdAqnFuv^cmXmrQgxs@szzB}kEu|HynH}aB{vY|_UcpnA_cCmpXu|Er}K_wUp~Aui_@||o@sdbBl{Eiby@erVywyBnxBouTtzTm|r@ubAuj`@|nQc~nAzrc@ijs@tzTyscCd}EosKlmh@ay]~wc@lkA|{|@wqYval@a|g@ve[}v~@l}Gool@zLcpuAnqPeueAn_Jcez@lxIoqPjhSw|kAfmJocG~_Gul[xer@ylpAppt@uk{A|bC}kUccE}fz@icc@svcAa~gAi`eAeel@emQocWzgAucu@rv^ovs@t~Jylk@smE}hg@}iZyp}@gbnA}yl@e`aBcqEobiAgk]ugr@xrEsbm@gpFchv@~uJspHlc@kv\\jbMc`WpxBmrQlj^okiB`oJ`pDbcSikHzhIxrExmNteDx`Viaa@cs@_tHx{GwbrAjvNmir@~yGdRzbJys~AcdFueb@xpJ}{|@vmGu}ItgMvuAdwFajEbt`@}oNlgJdrKxy\\|sVfxGxlMdjj@nc@n`gAyf\\dav@nqPtcu@jkf@beNn_C~rs@glW`~TrwAhpT{rLpt\\vbAbkr@mwVntfGyZnohGlPnohGjIbdoO{Svt{AeNdahGfGd~|BvG|ShtyBge@tsgA`naB|FgpgGfw{NombHl_oQe`wEjnlMr|vAdjbExljAfptC{qeBp{{BquMnya@oa{@hmvGckwCforAmur@rwcDdlPpfx@q}Wne`@ak[xrEk~Oj__@op`BrlD}i~C~uyB_wD~_@gyH{eFyhW_qL{iJydZgcUcmm@wr_AqqIopHz`OobpAjcUc~b@ajS_jL~|CsvGccLyio@sgMcomAh__@y}qBcfOscoBxeTa~gAzte@cs|@jir@ydU{pk@']
+	},
+	
+	
+		{
+		'name':'Syria',
+		'blurb':'<p>The Syrian government, led by President Bashar al-Assad, launched a violent crackdown last year on activists demanding more economic prosperity, political freedom and civil liberties.</p><p>The clampdown spurred a nationwide uprising and led to a civil war with armed rebels, who include military defectors and other fighters battling under the rubric of the Free Syrian Army.</p><p>The conflict has claimed roughly 17,000 lives, U.N. Secretary-General Ban Ki-moon said in July. Opposition activists put the toll at more than 20,000.</p><p>Throughout the uprising, the Syrian government has described opposition leaders as terrorists looking to destabilize the country. Opposition leaders say those claims are a ruse to justify attacks.</p><p>U.S. President Barack Obama and other global leaders have imposed economic sanctions on al-Assad, whose family has ruled Syria since 1970. They\'ve also called for him to give up power.</p>',
+		'color':'#eb0b0b',
+		'latLng':'34.30714385628807, 55.1953125',
+		'outlines':['qaoaF_sqaGzzHqo@x~xAfehBhiMhlsAle`@x_Unuy@p{Engi@c`Whth@kc@tiXdvShwy@|}KzjnAcnBp`gA|~j@hvaA|zlCjygChs`HhdFv_Md}Znit@n`[tbt@ve[f_t@tl[bxs@pn[zms@pz[pos@dr]d}q@qzDbz^qnFfrt@goLnuMscPnxn@yh^xkZcxGzq[fgJ|g^iqDduEmyE}iEarKoo@wcOtxCguP{n@qzDpfEsfEqpHemf@e|DtQbzH_|Tijd@uaGyuAqra@azl@ksB|f@ikHd_VyeMu`F_sUajZvGk_t@ynO|jR{cYizYiv\\a{f@stEl{Ec}LubAswAtaGq_Sjq@gwMrvW{oBvuOa`PesP}dEj~H_{HbqE~f@~~E|zA`R`wDrt\\ecA~ub@uxOljF}v`@pkJ_`RqgCkh_@upDaiDgvEmoj@nuFcx\\``e@grHahJypJ{vBetJwmG}}Rx`HgDifJy_Oe_LqVccOjeIcfAbaJ_t]iaZexG}iIaf]g}g@}t@~eBkkJuwC{hIno@u~JucBuxYefHdKm{L|~L_lGbkF}cR`iDul`AqySreKotx@baJ}aPn_JjsBjbFegIiiF{zHvvBwo|@gzBgiK}vRoc|@gi[sxeAhx@w}g@f~d@gp`AvZoeYlhE_mbAeoE{ql@kgIclgA_mOupm@_f]svcAk_XmhhAjtCykfAhlBmtq@ojIg{tAw_L{rj@qoWwd[vmGodGtzFetQraXcaC']
+	},
+	
+	
+		{
+		'name':'Yemen',
+		'blurb':'<p>In January 2011, protesters began calling for the ouster of President Ali Abdullah Saleh, who had ruled Yemen since 1978.</p><p>Several times, Saleh appeared to be on the verge of agreeing to hand over power, only to change course. But on November 23, after months of bloodshed, Saleh signed a deal to immediately hand over executive powers to the vice president.</p><p>High unemployment fuels much of the anger among a growing young population. People have also cited government corruption and a lack of political freedom as reasons for their outrage.</p><p>The transfer of power, brokered by the Gulf Cooperation Council and backed by the United States and the European Union, allowed Saleh to resign in exchange for immunity from prosecution.</p><p>Saleh\'s vice president, Abdurabu Mansur Hadi, was sworn in as the country\'s new president in February. Saleh still wields political clout as head of the ruling party.</p>',
+		'color':'#eb0b0b',
+		'latLng':'16.80454107638348, 62.9296875',
+		'outlines':['ymlpBo_ljHidyAkgeQvjfH_moBnce@}hYdcq@t`FrftA}zfAt~Z~jkApySvbm@b{_@h|b@~uo@tsTnp{@exNh_f@fzlAz~Ltp_@reK{S~|C`n^n|FnhGx}Y`z_Bb`WdpeB`nP`qSfnR|xy@wxDvxDftQtmhAt}g@hqxApzD_^skCt`HxdEplK~kc@nnMvut@jcz@rGx_\\dkFvuHabBpqIrmEvka@m|FrwXudCbx\\nqWv|f@r|t@hykAvwJ`mt@psRvvu@vhIrmq@zpCd{iBjdO`ulAras@rim@xqKrhl@dkVzhPfxUtbA~XjgDykEbhJozDc|KkpFjbFvyLt{UnuFweD}cDzwZ|jD~yGklInaEcoCt}PfzBd{JfxNnpOzgOtj`@f^zr\\avCseDhkHjzRde@z{WucInbFqeRlny@xpJxqKu@vh@th@nfL{|XgtCsiHlgD{roApuk@ycY}oBq`b@kdH_tm@lxI{{^no\\awb@g`B{fs@dwTkImaEonT_`@ak[t_LepTjtCw|A}gAq|k@doLk~On`DecLvcYfbDt|O{jK`uBzt@{wLu|Vy~ChqUc}L}dj@gWorQzwLie^xuAq~_@gnYsirAxwCitJjfCks`@m~t@mkX{~Ebl@ofSasNbaCwwC_zGqmEtNarFfpMqxeAoxBggIeuRqoG`nB_}CfwMqdQisPe|Rqya@tbAsaNnwVura@rpHwhP{nAk}Ut{G?|_@cfHkaLkaLrfEyvPomLimJcKct_@xoBq|]hwQm_|LfqlAcshA_n~Gyg`F']
+	},
+	
+	
+		{
+		'name':'Bahrain',
+		'blurb':'<p>Protesters first took to the streets in February 2011 to demand reform and the introduction of a constitutional monarchy. Some  called for removal of the royal family, which has led the Persian Gulf state since the 18th century.</p><p>Young members of the country\'s Shiite Muslim majority have protested discrimination, unemployment and corruption -- issues they say the country\'s Sunni rulers have done little to address.</p><p></p><p>In March 2011, the country took aggressive steps to quell the unrest, instituting state-of-emergency laws and bringing in more than 1,000 troops to enforce them. The emergency laws were lifted three months later, but reports of violence persisted.</p><p>Demonstrators and Bahraini authorities have continued to clash in recent months, with the opposition accusing the government of using heavy-handed tactics.</p>',
+		'color':'#eb0b0b',
+		'latLng':'24.04646399966662, 69.609375',
+		'outlines':['}mm|CssssH}gEtaBm~BvXqjFrlC{hDnyCouCzyEgxDtcA{dDglA_aDwXgyCwaBynBb{@kbFzKsrBfjBmfIppAuiCen@{aC|gAm`AglAwsAwXbVssFwx@yiKkmCc`EueCpnBy]_]oJc{@nwAslCyoAwXq|@abDfRslCn|@scAphGtaBnrByv@pJoyCxdGgsDt~HnuP`gBor@~aCtcAbvI{Kj~LtaBfjM|i@rpDoTvaGrnBr_Bzr']
+	},
+	
+	
+		{
+		'name':'Algeria',
+		'blurb':'<p>Anti-government demonstrations began in January 2011 over escalating food prices, high unemployment and housing issues. The protests started in the capital of Algiers but spread to other cities after regimes fell in Tunisia and Egypt.</p><p>A month later, Algerian President Abdelaziz Bouteflika lifted restrictions on freedom of speech when he announced the end of a 19-year-old state-of-emergency law. The law was originally put into place to combat an Islamist insurgency, but critics said the insurgency had long since diminished and that the law remained solely to muzzle critics of the government.</p><p>Bouteflika announced in April 2011 that a commission would be reviewing the country\'s constitution and that changes must be made to strengthen democracy.</p>',
+		'color':'#f38f00',
+		'latLng':'27.761329874505257, 19.072265625',
+		'outlines':['}|rcEx{sFk|TiWaeNanIcdFqbVmaL{dLwei@bwgAs~h@fe^iwFezIclNcs@gxe@tmc@uvW|Ec|`@}}KyiQlcGkvGnpOcakAqgMihx@fhZm{Sm{SooUlr_@us[evSalz@xmxAcmH~e@h^soAlmCs~XenBy}`@uei@{lpAkq@s`Tq`M}uQwnd@yhPe~d@kwiAdtJkw]apK}sV}pLo|FekFmIatA}pZpuM}|JfvE}jb@ilPk{Ziaa@}sO_fOoj^}cK}`Hmid@c{iBseKyjKu}I}au@itJiv{BwlKinuAaDueKvgFwsFbRq~_@o~Oodf@moUwmUg`BwiXxrLqhUwjB{eMybJypCrfE_nPn\\gcc@i}Ukhq@?cpi@jIapaCbxUyyvApzKldA~lHihSnxBofZozb@criAjdAakTevLgk{@cbKk_XeeGriAetQi_X`s@okXlzRqiOpoGkhq@tbHgnRelG{sk@idO_lN{~L|wLuNyuf@vzFklBq`Ak{NjmNouYo}@o_a@`pR~vDpkCouFf`B_k[qgTynt@dzIm`p@mmGeh\\~jHnuAzjDg~FlhEdl@nvGddk@bbDhPdfA}zH~~EqUreKjhExaP|ih@blGriHdjEel@ldHiub@pdiBtsTpyZubA~yNu_Lbk]chC~nQxhIleP|ErcIcdFdzB}`ObqEqrCjcGxuHfav@fhZhw]eiDvdJdbKbsIeaC|sk@psnArka@lbMftC|qT`rTviXxnf@f}EluTu_ElecAmkf@hid@so@hwFqmE~uQcjq@mI{dLvvu@}ci@~dz@gxG`}tAkhiC`}dBmsY|jcG}u`AxdUzpk@bs|@kir@`~gA{te@rcoByeTx}qBbfObomAi__@xio@rgMrvGbcL~iL_}Cb~b@`jSnbpAkcUnpH{`Ovr_ApqIfcUbmm@ziJxdZxhW~pLfyHzeF~vD_`@|i~C_vyBnp`BslDj~Ok__@`k[yrEp}Woe`@elPqfx@lur@swcDbkwCgorAhuNpvZjteDpw`H~ehD|k}G||hDvfxGtrqGlu_Ilqy@fcqHjd`@djqDie^~bh@k~OmhE_l\\idViaZ`vCa|BvxDwiv@cgBya^x{jAqhNn}qA_r[xcReqNvrSw@~xFfmJfwM}`A`yd@otLplDv@vyL{pZng[{iQrNccSfbb@oqB`dT_yMbmHlBrz[apDjlBmdaAcp@m{lCpycFso~DfvuGagwEtieIgcsEdflIcoh@lvaA__mEhstIkxdElbyIybvG?}zN{|`@ybXc|Yiaa@mw{@ogy@ixqAa`@yyc@kqe@gxl@rrCa|xBseKwqKo}e@edFxqDqnM_`@qxg@e`PkusBqaNase@eoh@o`p@utz@spf@qeY}mcAubAmq^qdXmaq@omZss[esIoiiAi|DwtG_oQaYs_S|tWt`FlxPe|Dn}@crFiuDk}Uro@ezIooNkbMtsT{xb@w@_zGcgBcaCihSpoG_ge@}wa@{uiBuwa@qtE_|IsgMawKg~|BfeGwtkCnqBk`w@_}Co{EscIfaCto@nkQizIarF']
+	},
+	
+	
+		{
+		'name':'Jordan',
+		'blurb':'<p>Jordan\'s King Abdullah II announced sweeping reforms in June 2011, promising to establish a parliamentary majority government -- a key demand of protesters calling for changes to the regime. </p><p>The king also announced economic reforms, including changes to the country\'s tax system in order to "raise the level of competitiveness, enhance the atmosphere for investment, secure work opportunities for youth and maintain the state\'s active, observatory role in an open-market economy."</p><p>Jordan\'s economy has been hit hard by the global economic downturn and rising commodity prices, and youth unemployment is high. </p>',
+		'color':'#f38f00',
+		'latLng':'27.44979032978424, 71.630859375',
+		'outlines':['{dfbEibstEcu[||Ay_aAqkQu{Ng{Zj~Ha_d@ppO_|BjjCoqVqfH_`A{tNjx@{nXaz@cwEqsLggJ}g^bxG{q[xh^ykZrcPoxn@foLouMpnFgrt@pzDcz^er]e}q@qz[qos@qn[{ms@ul[cxs@we[g_t@o`[ubt@e}Zoit@idFw_Mza@iQjik@}}Rnik@mzRbdk@euRbkk@osRjjk@}qRh`CjiDhfh@v{s@vyE~c[`wK~_s@lzKd~r@jyX~kfBr_Lfwr@dcLxsr@pfL~qr@j_Q{bQdkk@crk@nbk@s`k@hpk@i}j@hpk@yyj@h}E~wLhyXzlr@twQ|gH|kj@|jT`oJ`oo@jdHptq@zgHxrq@t_LhxGjoj@zd\\vte@~dj@bxc@zkq@opAzyNq|Fpaq@}xFbcq@quF|dq@c|Fzjq@_O\\ok_@asG{tAhrCsH|Gc^zoBgfAsU{nCcp@mqmBqxd@geP|cDezWuaGqoHdyCuu\\wkGsm\\wnOe{_@sjIm_JgsIegg@otL_fVjgKm|T_~K}{UcoApe@pkObgIfpMpaNnnb@kIhxl@}_GfzBqbd@koLyjKq_LwoPggg@oyJ~f@w{C`uTju@n|YstEno@e{CccLszRpxD']
+	},
+	
+	
+		{
+		'name':'Oman',
+		'blurb':'<p>Protesters took to the streets in February 2011 to demand greater freedom of expression, higher salaries and a clampdown on government corruption. They also called for a new constitution and the prosecution of security officials whose actions led to the death or injury of some demonstrators.</p><p>Oman\'s sultan, Qaboos bin Said, responded by replacing some high-level government figures and issuing a royal order that said job seekers who register with the Ministry of Manpower will be paid 150 rials a month (about U.S. $390) until they find jobs.</p>',
+		'color':'#f38f00',
+		'latLng':'20.220965779522338, 72.685546875',
+		'outlines':['_cbzBu`_eJs_Lx}BarTq\\keP}~LdRouFedr@eq\\fha@eyHbp[dp[zy\\zfNxuHngM','soqiCud|oImkhAtcAk`kB_vaA{roBqst@khrCionBdcvAawi@`xhAya|@fg`@y}g@xgOmlg@p~_@a~lBdDqrh@psRcsl@oc@ayVivEixGhtCyeT`uIebD~zHa|YvdS}cDfsI_}Jdbp@sq`@zyc@w}g@dgY{hIvif@eoh@|jDagBth@}pZnrJsdJ|f@a`G_`GtjBmBqkJbaJoaE`gW|Etp_@n~Hdn`@`dTj_X`sN`jvA~uo@voPdjc@bfm@lbr@ttc@vrS`cS|rUnzKhj@eKqnF~qTvfUx`d@tlKfoLfsInyCdmf@wnHb~MuoGw|AbwDu~Cwq`@izBex@leIppf@fzn@vuOmPjgKjbTpaNhvEhqGitCrnY|{Dh`y@rxWto|@eyOphU`wD|dq@q~QjiF~oDrfLdqmBjqWlzeAj{h@rjn@lavAj~OpiH~gQdp[jbTgzBxg]jaL|lnB`wKhqe@faZhuKtgMr_SzhYxrEdjEk_JlaLgnBxnf@biR~vY`cZjxP`ss@ooNlg[~sAvmmBlbTphUhsBhc\\~jTzu_@teDrxRz~LdriAxmE~dQsftA|zfAecq@u`Foce@|hYszdEvodA_rwAnbq@q}iEmtoQi|~J{hyBw|gCrvvA']
+	},
+	
+	
+		{
+		'name':'Kuwait',
+		'blurb':'<p>Protesters are seeking constitutional reform, including greater rights for longtime residents who are not Kuwaiti citizens. The country is believed to have roughly 100,000 residents who are not citizens.</p><p>In December, Kuwaiti protesters successfully forced the resignation of Prime Minister Sheikh Nasser Mohammad Al-Ahmad Al-Sabah, who they said was holding back progress. Under Nasser, six cabinet ministers had resigned and three parliaments had dissolved since February 2006.</p><p>After accepting Nasser\'s resignation, the emir of Kuwait dissolved parliament himself \'due to the deteriorating conditions that ... threatened the country\'s higher interests.\' His decree did not set a date for new elections.</p>',
+		'color':'#f38f00',
+		'latLng':'26.115985925333536, 64.423828125',
+		'outlines':['_fssDk{ieH{f@z`Hobd@x|XuzMmmLas@}fGamHkqGsvGriOwpCo{Enz@ovEdbf@sm^hyHmkAhbTj}NfuDbnI','_lspDada{G_s@gtAgfkAcc_Aud{A}{n@o|F}_GkaLmoc@kIgchAzyLexi@nGnd@hmh@osKplKyeMlub@_tOjc@nsD_mOhgYzgAlxIpwH~}D~`_@l`i@xxDwZsjBq|V`iK~sA_`@{|JqeKuxRlvG}~Sb`WwZfqxA_xj@lhEo|MfxGrpAtw[_hFrNqZ{lBjtnCy}YpgTwn]t`Fk{ZrhN{aPh~sCcnBtp]']
+	},
+	
+	
+		{
+		'name':'Morocco',
+		'blurb':'<p>Moroccan voters approved sweeping constitutional reforms last year to weaken the powers of King Mohammed VI and boost those of the government.</p><p>The revamped constitution, proposed by the king himself, makes officials more accountable, he said before the referendum. It also empowers voters to select a prime minister, ending the longstanding practice in which the king has selected his own man for the job.</p><p>Thousands of young Moroccans took to the streets in 2011, calling for jobs and an end to corruption that many people say comes from royal cronies.</p><p>In November\'s election, a moderate Islamist party won an overwhelming victory, with Abdelilah Benkirane becoming the country\'s new prime minister.</p>',
+		'color':'#f38f00',
+		'latLng':'29.6880527498568, 9.66796875',
+		'outlines':['glfuE~|nLbmH_f@`lz@ymxAts[dvSnoUmr_@l{Sl{Shhx@ghZbakApgMjvGopOxiQmcGb|`@|}KtvW}Efxe@umc@blNbs@hwFdzIr~h@ge^vei@cwgAlaLzdLbdFpbV`eN`nIj|ThWhzI`rFuo@okQrcIgaC~|Cn{EoqBj`w@geGvtkC`wKf~|B~{IrgMtwa@ptE|wa@zuiBqoG~fe@baChhS~yGbgBzxb@v@jbMusTdzInoNj}Uso@brFhuDd|Do}@u`FmxPr_S}tW~nQ`Yh|DvtGdsIniiAnmZrs[pdXlaq@tbAlq^peY|mcAttz@rpf@doh@n`p@paN`se@d`PjusB~_@pxg@yqDpnMn}e@ddFreKvqKsrC`|xBjqe@fxl@``@xyc@ngy@hxqAhaa@lw{@xbXb|Y|zNz|`@vejE?rLt~uF|H`lxR_nTg}\\a_]_wKclGktZk_Qo`zBe`Ioq^uhe@gieB}tP}{Pi`eA}ifAcmm@w`~Ae|p@w|m@{ph@_af@}wmAms~@yey@mo\\mxn@apDi_f@lnb@m~AbaQyuH?{fNcmH_gPgx@am`BavCmfJd~Fmd_@c~Tu`[ilImn`A{}~@ozb@k~Oak`Ahq@ac_AmhoAobiAs{aAdgBasGecEwmNwvPwvPkbMe{o@qzb@ymfBosKuuOggYuw}@afVkpd@au|@g|p@saxAmzw@gucBqwm@sbiBssh@uwHg~cAirO_tVzP_pJp_Nk_IdxG}Qzci@ilPdz|@m`uA|~S_cmAqnTm|~A~qFo~ArkCewMuvBslKsqIgtC_tAcdMnrJoqPxrEw~o@qfSces@_jZouMtG{dEffRcwBn~KiaAx{Sq`Cv`FwwJbfAgmQy`V`}ZvfEm_JvdSmeg@?usTwvIcbR~mIqrg@']
+	},
+	
+	
+		{
+		'name':'Mauritania',
+		'blurb':'<p>Young Mauritanians have been pushing for social, political and economic reforms since February 2011.</p><p>Job creation is a major concern. Half the population still depends on agriculture and livestock for a livelihood, according to the CIA\'s website.</p><p>There have been two bloodless coups in the country since 2005. Former Gen. Mohamed Ould Abdel Aziz has been president since 2009.</p>',
+		'color':'#f38f00',
+		'latLng':'19.890723023996923, 8.0859375',
+		'outlines':['udu}Cdy{s@o~xF|KjxdEmbyI~~lEistIboh@mvaA|El|xIb{lIegg@~`[_{Aj_{Hobd@jpcIkpd@p_gIcqc@v}fIwfc@fbb@}_s@~_aDbi^o]baoAu@n`oIhWznlIigYqwA}wLhsBp`TvkSr{\\kaEvuA|uv@v}I|sV|Exsy@w_Ez`HwvE`ikBpnWvnGrgFnsKn}_@n~L}cE~rCkdm@nyo@}~q@`oo@ubAfzPp|VlkXsrCxkLzl~AreY~`A{fGnmZrGzvYdg`@v{G|fOmeIvnN|aBxiQ}~@f|AqqUvcc@}sVjkHy|Yvoy@kaKf|@nBt~JanIhqG{t@wuHckF`K}uJt|O}}YjhElgDftQyxD~xFgpMso@mxIfj\\ckpAxy\\gwFhuKauI`xEt|Hbpb@cyOxrEr_LjmZgqNtrCwsFneRg~Fuh@wts@|kq@kuD|qTezIlIym@l|FjItf}AauIbrVjgKzdLg~FjrHjmCtvBxrE_wDbpDn_CdiDnrXgaCvzk@dcL|yNpkC|btAebKvh^dmHv`]pkv@jePnuFdxN`aXxpCeeGb{AhdB|}B{pFpSc~lBcyOsrfAofa@kn|Aewb@{v~@owHyesBryCstfBbp[emf@|zVyuO`vZ{zVl`KffAuqR}|QglW}~LkkApoNfmQijN_yFjhLdxNz}Kn}@kIjnDiqGt@}au@iyf@y|_@ynA|_@nuF{xT_rMwoWblGamAsmEqpOyxD{}RxiQmu`Ara\\_}Cv|H}xFnnF`u`@nwA_wDptEoaj@p`[mjcA~ag@zyUxhPbkMklBlnMd`IxsF_}Cf|Ob_Ee{[?mbqAaxRrGie{IwScsyIxLeglAa_dFzmNmfo@j{LenYqvG}uXk{Sgdp@{pmAowa@}jsBydpNt@x@_qvRoB_pR']
+	},
+	
+	
+		{
+		'name':'Djibouti',
+		'blurb':'<p>Protesters have called for the resignation of President Ismail Omar Guelleh, whose family has ruled the country since it gained independence from France in 1977. Economic stagnation is also a source of anger among the people.</p><p>In February 2011, riot police broke up a protest with tear gas, according to Aly Verjee, director of the international election observation mission to Djibouti.</p>',
+		'color':'#f38f00',
+		'latLng':'9.968850608546136, 59.326171875',
+		'outlines':['wmwcAexd~Fetm@`rHcfm@wrLcrMwgVuipBwikAqwXovUy@w@h{CgqNv|LgdOnKqIbnBwcBfyAynA|gA}hBriA{hBzcAk_BRU?EEAalCodF`Ccv@mBqUsNaYaYcRo\\{LkPkE_cDyiGcEmQeKg^ySsUcRoU_YcRyZsN}f@eDo\\v@yS`GqvQy|Bc@K{SqUkIg^}Emc@{SqUua@mImdA|Lyb@o@sJoEaNiOg^qv@aYkPo\\sNatAoBsK}Ayg@wUMIoM_j@qC_VlIwa@hP_YpUeKbRiWjP_Ycl@{oBwcBu`F{m@cnBucBu`F{m@yoBiq@{oBkq@anB{m@{oBiq@{oByd@gtAv_|@u_l@bbp@g|KjePfe@laLnvGzlFle`@|k\\lu[z|Jdes@~fe@by]}{B~hRjfJoc@lzDg{Zu|HtuAiuKkbd@buBmmo@ckFqpHttN_oC|lJkwMxqzAjsz@zcB~eXyqDvaGwwJbaCudCl}UxrSlggAjfChttAqwAjpFqnr@_}C_nBxU']
+	},
+	
+	
+		{
+		'name':'Saudi Arabia',
+		'blurb':'<p>Activists in Saudi Arabia, a majority Sunni kingdom, have demanded more freedom and democracy and called for the release of Shiites jailed without charge or trial.</p><p>In February 2011, King Abdullah announced a series of sweeping measures aimed at relieving economic hardship. Billions of dollars were promised for social welfare programs, housing, employment and education, including funds to help needy students attend college.</p>',
+		'color':'#f38f00',
+		'latLng':'23.72501173595181, 62.841796875',
+		'outlines':['ijwcEgk{nFlla@irgCpfrBefmFpdbBmuiFf_m@ackBnc|@grOn{E_ksBf`u@x{Gtt_B`hClz[s{nApvp@wsjCt{A_hD|epAoxtC{`Ou_q@eho@{tvCbnBup]zaPi~sCj{ZshNvn]u`Fx}YqgTzlBktnCjvYwyUngTf^nqP{bQrbOboCrdQwvI~aBimQxlFmfC`uBvxD|`OwgOj|Tw|Ht@xxDmyCpmE|xMnuF`pDkcG{uAozDdcL_hA~}KexGskJ_oJzbJcmOv_Eqwf@`oQyiJqBlr_@nvGefOce@qnFx_NhjGsjBocPz_\\ypCsrCcmHrjBi}EffH`vChmC}nXgxG|cDySwyEluMouFpfZuzTdrVu}u@fha@yyc@ubAxzFuGngMmiF|pCfzBhaEfgYilB|}Rw|H|zHa{Xt{UwyEp_ZvxDkfCxpCrhGxa@zcRhaEajZpsKqqBlcGrkJxmGzpZqpAxZauB_`GksB~bJopO`_VcR~mWetQ|wSg~FckMhvLxvn@{xb@udJynAxkSqmSlgb@kaEvi_@ecLt{NioLnb]ooNz~S_zGulDgrHdewB}`uCfzcGosyDy``@q`~NfvhCivqAvvqLtmkBpjqEjimQtj_AbidPxhyAnubE~j`EfmjCdrp@l``AoxQpv[}_`Antw@tzSlidBgiRxs`DwrU~{hCnm\\|ohC}_@bfHu{G?znAj}UspHvhPowVtra@ubAraNd|Rpya@pdQhsP~|CgwMpoGanBfgIduRpxeAnxB`rFgpMpmEuNvwC~yG`sNcaCcl@nfSlkXz~Ejs`@l~t@kbd@ptLg|RsqB_xEf|Dml`@h``@caXov@u~JdwTwbQhmCksBz{IhdOua@_n|@f_HkkHl|F}kz@lvaAw`Mph\\ulb@hsYmhU|bJ{iQd{QamHirA_z@hpF{`Vn`Dab`@jqPua@|cKq}W~zOwpXixGsjBjoEykSpiOoiVg~Fm{LnoUafVv~CgvLzyN}h`@p}@wrSnzb@pUusFs`Ttt@ymNx~JkIhiMfzBjdA_ge@zzVghSnhc@q}e@zan@nBdfOylMtdo@uxi@h|d@e~TbbI{`OxoPodHxS{dEz~EscPfzI{mjAdip@mxPcgPyqR~`AwuAvuHi``@~wEilIarFzhB|aI{rc@j}U~X{gHruFcs@lzDqmEc}x@|zAkqs@kqWpzDj_Jele@n}@_f]hnRiiFkpFogDzhItaGiWat_@hpTpnFmjGzdE{gHcoC{nAokQdjLucBzyNitJt_EoyJudCc~M|dE}fjArq`@fzBhwFcip@dxUe{QrqYovs@r}jA_vJwcB`{AxmG|~Ekc@yZhlIglWv}`@frHntLqnFdfOoxg@fmQ_`l@rnd@sgMbRdfA~xFsdJvyEzm@_}J{cDclGipT_oCujg@blGekVloUkaZ~yGy`{@|cp@mj@`jErnFaz@e}Ev{NkiTtxKafOirHu}IqUe_Hp{EqwA~lOseKb`P{rhAn|d@usb@`pYqsi@doZq|d@jlg@w~h@lyQgsIpkQcva@``WetJnBseKvoIqbd@d_ViiTvdSsnF~pLuwCwkEqxInkQqeDrdQvqD~j[e|DboCrbAzzHihFpjOxz@jtDh`KxnA~eFdyHkgKxbA{gOcpDylMymGc{XitJyg]iiMeoSdgBoiVqrCkb[yoBq}^i~Fwb_@wsFazWcmHiNZb|F{jq@puF}dq@|xFccq@p|Fqaq@npA{yNcxc@{kq@wte@_ej@koj@{d\\u_LixG{gHyrq@kdHqtq@aoJaoo@}kj@}jTuwQ}gHiyX{lr@i}E_xLipk@xyj@ipk@h}j@obk@r`k@ekk@brk@k_QzbQqfL_rr@ecLysr@s_Lgwr@kyX_lfBmzKe~r@awK_`s@wyE_d[ifh@w{s@i`CkiD','aym{CkrmvIryBldJc{Jl{LmcaAaeGmmLreDdjBjdNkrEsjAah_@gxUzgHwwCzwCseKgiDogTee@hgRek]orJ~qFocG{m@upQptE{{@aRtbH`yFlgKb~FqhNt~QfsBcoKfxPfdGt~H|bC_zGxlFcoCxiCkcNx`Ft{NnsDuzFjcGreD~}DatHhoSf~MhfQdvL~|T|xD']
+	}
+	/*
+		{
+		'name':'',
+		'blurb':'',
+		'color':'#',
+		'latLng':'',
+		'outlines':[]
+	}*/
+	
+]

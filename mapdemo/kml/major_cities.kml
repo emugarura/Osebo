@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Major cities</name>
+  <description><![CDATA[]]></description>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://i.imgur.com/UnLlm.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://i.imgur.com/UnLlm.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://i.imgur.com/UnLlm.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://i.imgur.com/UnLlm.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://i.imgur.com/UnLlm.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://i.imgur.com/UnLlm.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://i.imgur.com/UnLlm.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://i.imgur.com/UnLlm.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://i.imgur.com/UnLlm.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://i.imgur.com/UnLlm.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Accra</name>
+    <description><![CDATA[Ghana<br>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-0.196306,5.555717,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kumasi</name>
+    <description><![CDATA[Ghana<br>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-1.621969,6.687119,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sunyani</name>
+    <description><![CDATA[Ghana<br>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-2.333333,7.333333,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cape Coast</name>
+    <description><![CDATA[Ghana<br>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-1.247234,5.105056,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Koforidua</name>
+    <description><![CDATA[Ghana<br>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-0.262450,6.087481,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tamale</name>
+    <description><![CDATA[Ghana<br>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-0.853333,9.407500,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bolgatanga</name>
+    <description><![CDATA[Ghana<br>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-0.850000,10.783333,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wa</name>
+    <description><![CDATA[Ghana<br>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-2.500000,10.066667,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ho</name>
+    <description><![CDATA[Ghana<br>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>0.472412,6.577303,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sekondi-Takoradi</name>
+    <description><![CDATA[Ghana<br>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-1.713909,4.932952,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

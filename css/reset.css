@@ -1,0 +1,4 @@
+body,html,h1,h2,h3,h4,h5,h6,figure,ul,ol,li,form{margin:0;padding:0;}
+ol,ul{list-style:none}
+#content ul{list-style:circle}
+#content ol{list-style:decimal}

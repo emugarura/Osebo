@@ -1,0 +1,155 @@
+#main, #map, body, html {
+  width:100%;
+  height:100%;
+}
+
+body {
+	overflow:hidden;
+}
+
+#controls, #info, #legends {
+	height:100%;
+	position:absolute;
+	top:0;
+	right:0;
+	background-color:#fff;
+	border-left:1px solid #ccc;
+	border-left:1px solid rgba(0,0,0,0.2);
+	-webkit-box-shadow:-2px 4px 4px rgba(0,0,0,0.2);
+	-moz-box-shadow:-2px 4px 4px rgba(0,0,0,0.2);
+	box-shadow:-2px 4px 4px rgba(0,0,0,0.2);
+	-webkit-background-clip:padding-box;
+	-moz-background-clip:padding-box;
+	background-clip:padding-box;
+	z-index:9999;
+}
+
+#indicator .open ul {
+	display:none;
+}
+
+#left-controls {
+	width:299px;
+	border-right:1px solid #ddd;
+	height:100%;
+	position:relative;
+}
+
+#right-controls {
+	width:300px;
+}
+
+#info {
+  display:none;
+  width:20%;
+  min-width:200px;
+}
+
+.block-title {
+	padding:8px 14px;
+	margin:0;
+	font-size:14px;
+	font-weight:normal;
+	line-height:18px;
+	background-color:#f7f7f7;
+	border:1px solid #ddd;
+	border-width:1px 0;
+}
+
+#submit {
+	margin-top:20px;
+	border-top:1px solid #ddd;
+	width:100%;
+}
+
+ .block-content {
+	padding:10px;
+}
+
+#show-filters {
+	position:absolute;
+	bottom:50px;
+	right:50px;
+}
+
+#filter {
+	width:100px;
+}
+
+#hide-controls {
+	margin-left:10px;
+}
+
+#right-controls .btn-group {
+	margin:15px 0;
+}
+#right-controls .btn-group {
+	padding-left:15px;
+}
+
+/* Overriding Twitter Bootstrap rule that breaks google maps. 
+ * See: http://github.com/twitter/bootstrap/issues/1552 */
+#map img {
+	max-width:none;
+}
+
+#legends {
+	display:none;
+	top:20px;
+	right: 620px;
+	height:auto;
+	width:220px;
+}
+
+#legend-list {
+	list-style:none;
+	padding:0;
+}
+
+#legend-list li {
+	margin:10px 0;
+	font-weight:bold;
+}
+
+#legend-list span {
+	display:inline-block;
+	width:1em;
+	height:1em;
+	margin-right:10px;
+}
+
+#legend-bottom {
+	color:#555;
+	padding:0 10px;
+}
+
+@media (max-width: 1179px) { 
+	.block-content, .btn, .btn-group .btn, label {
+		font-size:12px;
+		padding:4px 10px;
+	}
+
+	#left-controls {
+		width:200px;
+	}
+
+	#filter, #hide-controls {
+		width:140px;
+		margin:5px 10px;
+	}
+
+	#right-controls {
+		width:200px;
+	}
+
+	#legends {
+		right:420px;
+	}
+
+}
+
+@media (max-height: 700px) { 
+	#controls {
+		overflow-y:scroll;
+	}
+}

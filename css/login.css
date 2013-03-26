@@ -1,0 +1,6 @@
+#manager{background-color:#f4f4f4;-moz-box-shadow:0 4px 6px 2px rgba(0,0,0,0.1);-ms-box-shadow:0 4px 6px 2px rgba(0,0,0,0.1);-o-box-shadow:0 4px 6px 2px rgba(0,0,0,0.1);-webkit-box-shadow:0 4px 6px 2px rgba(0,0,0,0.1);box-shadow:0 4px 6px 2px rgba(0,0,0,0.1);-webkit-background-clip:padding-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding:7px 10px;position:fixed;top:0;left:0;width:100%;z-index:99;}
+#manager p{margin:0;float:left}
+#manager ul{overflow:hidden}
+#manager li{float:left;margin-left:15px;}
+#manager li:first-child{background:url("../img/openid/lock.gif") no-repeat 0 center;padding-left:25px}
+#manager #editbuttons{position:absolute;top:1px;right:10px}
