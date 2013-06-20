@@ -14,6 +14,7 @@ Frame</a> to better experience this site.</p>
         <ul class="nav">
             <li><a href="list.php">Indicators</a></li>
             <li><a href="districts.php">Areas</a></li>
+            <li><a href="mapdemo">View the map</a></li>
         </ul>
       </nav>
     </div>

@@ -8,37 +8,26 @@
  *
  * @copyright     IBIS Servicios (http://ibisservicios.com)
  * @link          http://ibisservicios.com
- * @version       1.0
+ * @version       1.1
+ * @license       View the LICENSE file
  */
 
 date_default_timezone_set("Africa/Accra");
 
 define ("ENCODING", "UTF-8");
 define ("LANGUAGE", "en");
-define ("SALT", "kkAj82kj328AYHhh299NHAHj3ibdikw");
+define ("TAGS", "<p><strong><a><ul><li><em><ol><span><table><tr><th><td><img><h1><h2><h3><h4><h5><h6><div><iframe><b><i><hr><pre><br>");
 
-if (file_exists("/sites/local")) {
-  define ("CONNECTION", "/sites/osebo/conn/local.osebo.php");
-  define ("URL", "http://e/osebo/");
-  define ("LOCAL", true); 
-  define ("PATH", "/sites/osebo/");
+if (file_exists(__DIR__ . '/config.php')) {
+  require_once __DIR__ . '/config.php';
 } else {
-  define ("CONNECTION", "/home/ibiscorp/www/osebo/conn/online.osebo.php");
-  define ("URL", "https://ibisservices.com/osebo/");
-  define ("LOCAL", false); 
-  define ("PATH", "/home/ibiscorp/www/osebo/");
+  die("Configuration file does not exist. Please create this file to proceed. View the readme for more information.");
 }
 
-define ("SITENAME", "Osebo - Ghana");
-define ("TAGS", "<p><strong><a><ul><li><em><ol><span><table><tr><th><td><img><h1><h2><h3><h4><h5><h6><div><iframe><b><i><hr><pre><br>");
-define ("EMAIL", "info@ibisservices.com");
-
-require_once('global.functions.php');
+require_once(__DIR__ . '/opensource.functions.php');
 
 $db = new DB;
 $css_version = filesize("css/styles.css");
-
-$lang = mysql_clean(LANGUAGE);
 
 $head = '
 <meta charset="utf-8" />

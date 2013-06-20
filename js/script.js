@@ -10,7 +10,7 @@ page = {
       imageUpload: 'upload.php',
       imageUploadCallback: function(obj, json) {
         if (!json.img) {
-          return $("#content").prepend('<div class="alert alert-block alert-error fade in"><button type="button" class="close" data-dismiss="alert">×</button><p>Carpeta no existe o no tiene permisos de escritura. Favor contactar a IBIS Servicios</p></div>');
+          return $("#content").prepend('<div class="alert alert-block alert-error fade in"><button type="button" class="close" data-dismiss="alert">×</button><p>The upload folder does not exist. Please first create the upload folder.</p></div>');
         }
       }
     });
@@ -45,7 +45,7 @@ page = {
         id: id
       },
       error: function() {
-        return $("#content").prepend('<div class="alert alert-block alert-error fade in"><button type="button" class="close" data-dismiss="alert">×</button><p>Un error inesperado a ocurrido. Favor recarge y vuelva a intentarlo.</p></div>');
+        return $("#content").prepend('<div class="alert alert-block alert-error fade in"><button type="button" class="close" data-dismiss="alert">×</button><p>Unexpected error. Please revise the configuration.</p></div>');
       },
       success: function(data) {
         var li, url;
